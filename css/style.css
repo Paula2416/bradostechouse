@@ -10,3 +10,16 @@ body {
     color: black;
     background-color: #f8f8fa;
 }
+header {
+     align-items: center;
+     background-color: #bfb7f5;
+     color: #fff;
+     padding: 30px;
+     display: flex;
+     justify-content: space-between;
+     box-shadow: 0 4px 8px rgba(9, 5, 243, 0.925);
+
+
+
+
+}
