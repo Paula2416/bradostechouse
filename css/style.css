@@ -30,3 +30,11 @@ header {
     color: #0c82f0;
     font-weight: bold;
 }
+.nav-list li {
+    box-shadow: 0 4px 8px rgba(49, 6, 241, 0.925);
+    text-align:inherit;
+    display: flex;
+    position: relative;
+
+
+}
