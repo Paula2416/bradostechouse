@@ -33,8 +33,46 @@ header {
 .nav-list li {
     box-shadow: 0 4px 8px rgba(49, 6, 241, 0.925);
     text-align:inherit;
-    display: flex;
+    display:inline-block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 30px
+
+
+}
+.nav-list li a {
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: inline-block;
+    overflow: hidden;
     position: relative;
 
-
+}
+.nav-list li a:hover {
+    background-color: #11151d;
+}
+/* call-to-action */
+.call-to-action {
+    background-color: #7453eb;
+    padding: 20px;
+    text-align: center;
+}
+.call-to-action p {
+    margin: 0 0 20px;
+    font-size: 20px;
+}
+.call-to-action a.button {
+    background-color: #000030;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.call-to-action a.button:hover {
+    background-color: #7453eb;
+    color: #000030;
 }
