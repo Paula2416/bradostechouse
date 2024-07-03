@@ -18,8 +18,15 @@ header {
      display: flex;
      justify-content: space-between;
      box-shadow: 0 4px 8px rgba(9, 5, 243, 0.925);
-
-
-
-
+}
+.logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 3em;
+    float: left;
+    font-weight: bold;
+    color: #520af8;
+}
+.logo span {
+    color: #0c82f0;
+    font-weight: bold;
 }
